@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+}
+img{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: crimson;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#4991c4 0%,#c4bf25 100%);
+    opacity: 0.83;
+    display: table;
+    z-index: 9;
+}
+h1{
+    font-size: 45px;
+    font-family: fantasy;
+    font-weight: 300;
+    line-height: 1.2;
+}
+h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+.line{
+    height: 5px;
+    background-color: blue;
+    width: 60px;
+    margin: 8px auto;
+}
+#Bo{
+    font-size: 45px;
+    padding: 50px;
+}
+p{
+  font-size: 15px;
+  line-height: 1.2;
+   margin: 25px auto;
+    max-width: 450px;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    font-family:monospace;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+}
+.hoho{
+    float: left;
+    color: aqua;
+    font-family: inherit;
+    font-size: 20.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.hoho:hover{
+    background-color: darkcyan;
+}
+#name{
+    font-size: 55px;
+    line-height: 1.2;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-weight: bold;
+}
